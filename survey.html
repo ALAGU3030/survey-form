@@ -1,0 +1,74 @@
+<link rel="stylesheet" type="text/css" href="survey.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div class="container">
+<h1 id="title" align="center">Core Trainer Survey Form</h1>
+<p id="description">Thank you for helping us to improve us</p>
+<form-div>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Enter you id" required>
+    <label for="number" id="number-label">Course Code:</label><input type="number" name="reg" id="number" placeholder="Enter the course code" min=0001 max=9999>
+    <label for="course" id="course-label">What course did you studied here?</label>
+    <select id="dropdown" name="course">
+        <option disabled selected value>Select the course</option>
+        <option value="Principal">c language</option>
+        <option
+value="HOD">C++</option>
+        <option value="Professor">Java</option>
+        <option value="student">Python</option>
+        <option value="other">Deep Learning</option>
+    </select>
+    <label 
+           id="rating" 
+           for="rating">
+How do you rate the Faculties</label>
+    <label-radio>
+        <input 
+               type="radio"                          name="rate"                            value="Outstanding">
+         Outstanding
+    </label-radio><br>
+    <label-radio>
+        <input 
+               type="radio"                          name="rate"                            value="Better">
+          Better
+    </label-radio><br>
+    <label-radio>
+        <input 
+               type="radio"                          name="rate"
+               value="Poor">
+          Poor
+    </label-radio>
+    <label>How will you recommend to your friends?</label>
+    <label>
+      <input
+           type=checkbox                          value="spacious">
+      Spacious
+    </label>
+    <label>
+      <input
+           type=checkbox                          value="faculties">
+      Friendly Faculties
+    </label>
+    <label>
+      <input
+           type=checkbox                          value="Accomodation">
+      Accomodation
+    </label>
+    <label>
+      <input
+           type=checkbox                          value="fee">
+      Economical fee structure
+    </label>
+    <label>Comments to improve us</label>
+    <textarea placeholder="Enter your comments...">
+    </textarea><br>
+      <button 
+              type="submit"                         id="submit">
+        Submit</button>
+      </form>
+    </form-div>
+</div>
+

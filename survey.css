@@ -1,0 +1,50 @@
+  @import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-top:0.7rem;
+  margin-bottom:0.2rem;
+}
+form-div{
+  font-family:Courier Prime;
+}
+p{
+  text-align:center;
+  font-family:lobster;
+}
+h1{
+  font-family:lobster;
+}
+body::after{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(
+      15deg,
+      rgba(58, 58, 30, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ), url(https://www.socialsamosa.com/wp-content/uploads/2016/06/digital-class.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
